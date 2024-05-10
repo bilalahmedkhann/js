@@ -59,8 +59,20 @@ console.log("A", myArr);
 
 
 const myArr1 = [1,2,3,4,5,6,7];
-const myn = myArr1.slice(0,5);
+console.log("A", myArr1);
+
+const myn = myArr1.slice(1,3);
+console.log("B" ,myArr1);
 console.log(myn);
 //[ 1, 2, 3, 4, 5 ]
 
+const myn2 = myArr1.splice(1,3)
+console.log("C", myArr1);
+//C [ 1, 5, 6, 7 ]
+
+//myArr1 changes in splice....
+//splice gives the desired value....
+
+console.log(myn2);
+//[ 2, 3, 4 ]
 
